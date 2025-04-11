@@ -43,6 +43,8 @@ public class Monster : MonoBehaviour
         _hasDied = true;
         GetComponent<SpriteRenderer>().sprite = _deadSprite;
         _particleSystem.Play();
+        var audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
         yield return new WaitForSeconds(1.5f);
 
         gameObject.SetActive(false);
