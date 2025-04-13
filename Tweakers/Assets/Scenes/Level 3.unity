@@ -22430,6 +22430,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1511485989944004651, guid: a5b205e3da6fae64d9443e3a0398d5b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -275
+      objectReference: {fileID: 0}
     - target: {fileID: 2092544118037165214, guid: a5b205e3da6fae64d9443e3a0398d5b4, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -22517,6 +22521,10 @@ PrefabInstance:
     - target: {fileID: 2092544118037165218, guid: a5b205e3da6fae64d9443e3a0398d5b4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249969093661734624, guid: a5b205e3da6fae64d9443e3a0398d5b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -275
       objectReference: {fileID: 0}
     - target: {fileID: 3123608042166222131, guid: a5b205e3da6fae64d9443e3a0398d5b4, type: 3}
       propertyPath: m_AnchorMax.y
