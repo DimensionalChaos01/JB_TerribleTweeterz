@@ -38,6 +38,12 @@ public class pausemenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void Startgame()
+    {
+        Debug.Log("Loading Level 1...");
+        SceneManager.LoadScene("Level 1");
+    }
+
     public void LoadMenu()
     {
         Debug.Log("Loading Menu...");
